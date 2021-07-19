@@ -1,5 +1,15 @@
+import Layout from "./layouts";
+
+import { HomePage } from "./pages/home";
+
 function App() {
-  return <div>Test</div>;
+  return (
+    <>
+      <Layout>
+        <HomePage />
+      </Layout>
+    </>
+  );
 }
 
 export default App;

@@ -24,7 +24,7 @@ body {
   text-rendering: optimizeLegibility;
   width: var(--full);
   height: var(--full);
-  background: var(--white);
+  background: var(--main-bg);
   color: var(--text-primary);
 }
 
@@ -41,13 +41,6 @@ body._fixed {
   max-width: var(--wrapper-max-width);
   min-width: var(--wrapper-min-width);
   margin: 0 auto;
-  //   display: grid;
-  //   grid-template-columns: 310px 1fr;
-  //   grid-template-rows: auto 1fr;
-
-  //   @media (max-width: 1271px) {
-  //     display: block;
-  //   }
 }
 
 h1,
@@ -59,13 +52,6 @@ p {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  color: var(--text-secondary);
-}
-
 ul,
 li {
   list-style-type: none;
@@ -74,7 +60,6 @@ li {
 }
 
 a {
-  text-decoration: none;
   outline: none;
   font-family: inherit;
   white-space: nowrap;
@@ -86,7 +71,7 @@ button {
   color: inherit;
 }
 
-// hamburger
+// hamburger icon
 
 .hamburger-box {
   border: none;
