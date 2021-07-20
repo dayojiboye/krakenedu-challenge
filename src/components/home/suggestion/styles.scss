@@ -7,6 +7,10 @@
   border-radius: 10px;
   margin-bottom: 16px;
 
+  @media (max-width: 1023px) {
+    display: block;
+  }
+
   &:last-of-type {
     margin-bottom: 0;
   }
@@ -21,6 +25,10 @@
     align-items: center;
     font-size: 14px;
 
+    @media (max-width: 1023px) {
+      width: 40px;
+    }
+
     i {
       font-size: 12px;
     }
@@ -32,6 +40,10 @@
     flex-direction: column;
     align-items: flex-start;
     margin-right: 16px;
+
+    @media (max-width: 1023px) {
+      margin: 16px 0;
+    }
 
     p {
       color: var(--text-muted);
