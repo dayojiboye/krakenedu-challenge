@@ -23,7 +23,7 @@ const Header = () => {
 
       <div className="add-feedback">
         <button>
-        <i class="fas fa-plus"></i> Add Feedback
+        <i className="fas fa-plus"></i> Add Feedback
         </button>
       </div>
     </header>

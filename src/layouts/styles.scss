@@ -1,9 +1,11 @@
 .layout {
   display: grid;
   grid-template-columns: 280px 1fr;
-  gap: 0 32px;
+  gap: 25px;
+  padding: 60px 16px;
 
   .main {
     grid-column: 2;
+    grid-row: 2/4;
   }
 }
