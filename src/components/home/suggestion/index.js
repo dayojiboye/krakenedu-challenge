@@ -26,7 +26,9 @@ const suggestion = ({
 
       <div className="suggestions-comments">
         <i className="fas fa-comment"></i>
-        <span>{suggestionComments}</span>
+        <span className={`${suggestionComments === 0 ? "muted" : ""}`}>
+          {suggestionComments}
+        </span>
       </div>
     </div>
   );

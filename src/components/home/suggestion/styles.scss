@@ -56,6 +56,8 @@
     align-self: center;
     margin-left: auto;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
 
     i {
       color: #d2d1f0;
@@ -64,6 +66,10 @@
     span {
       margin-left: 10px;
       font-weight: 700;
+
+      &.muted {
+        color: var(--text-muted);
+      }
     }
   }
 }
